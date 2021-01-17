@@ -16,7 +16,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Map;
 
 @RestController
-@CrossOrigin(origins = {"https://ziptubefrontend.herokuapp.com", "http://localhost:8080", "http://localhost"})
+@CrossOrigin(origins = {"https://ziptubefrontend.herokuapp.com", "http://localhost:8080", "http://localhost:4200"})
 public class UserController{
     final
     private UserRepository userRepository;
