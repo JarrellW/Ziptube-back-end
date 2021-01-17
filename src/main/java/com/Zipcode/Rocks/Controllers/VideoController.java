@@ -15,7 +15,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("storage/")
-@CrossOrigin(origins = {"https://ziptubefrontend.herokuapp.com", "http://localhost:8080", "http://localhost"})
+@CrossOrigin(origins = {"https://ziptubefrontend.herokuapp.com", "http://localhost:8080", "http://localhost:4200"})
 public class VideoController {
 
     @Autowired
