@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = {"https://ziptubefrontend.herokuapp.com", "http://localhost:8080", "http://localhost"})
+@CrossOrigin(origins = {"https://ziptubefrontend.herokuapp.com", "http://localhost:8080", "http://localhost:4200"})
 public class CommentController {
     @Autowired
     CommentService commentService;
